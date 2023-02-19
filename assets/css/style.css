@@ -9,6 +9,10 @@ p, h2, h3, #navigation-links li a {
     color: #ffffff;
 }
 
+#site-title, footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -16,7 +20,6 @@ header {
 
 #site-title {
     display: inline-block;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
     color: #ffffff;
 }
@@ -113,13 +116,17 @@ p {
     max-width: 150px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer p {
+    color: #000000
+}
+
+#made-by {
     font-size: 20px;
+    font-weight: bold;
 }
