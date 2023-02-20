@@ -1,7 +1,15 @@
+/* || Global and Repeat Font Styles */
+
+/* Set all boxes' sizing styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+/* Font families and color formats.*/
+#site-title, footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p, h2, h3, #navigation-links li a {
@@ -9,62 +17,75 @@ p, h2, h3, #navigation-links li a {
     color: #ffffff;
 }
 
-#site-title, footer p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+/* || Header, Nav, and Main Site Pic */
 
+/* Set header box padding and background */
 header {
     padding: 20px;
     background-color: #2a607c;
 }
 
+/* Set display, font, and color for title */
 #site-title {
     display: inline-block;
     font-size: 48px;
     color: #ffffff;
 }
 
+/* Set color variation for letters "seo" in title */
 #site-title #seo {
     color: #d9dcd6;
 }
 
+/* Set padding, margin, and float for nav box */
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
 }
 
+/* Set list style, display, and margin for nav li's */
 #navigation-links li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Set font size and decoration for nav links */
 #navigation-links li a {
     font-size: 20px;
     text-decoration: none;
 }
 
+/* Set size and margin for center pic on site */
 #market-meeting {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
 }
 
+/* || General Body settings */
+
+/* Set background color for body section */
 body {
     background-color: #d9dcd6;
 }
 
+/* Set font-size for p elements in body */
 p {
     font-size: 16px;
 }
 
+/* || Services Section */
+
+/* Set width, display type, and left margin for Services section */
 #our-services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Set margin, padding, height, and background for Service section/class */
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -72,25 +93,32 @@ p {
     background-color: #0072bb;
 }
 
+/* Set height for images in Service section */
 .service img {
     max-height: 200px;
 }
 
+/* Set left float and right margin for pics class in Service section */
 .service .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Set right float and left margin for pics class in Service section  */
 .service .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Set font for headings in Service section */
 .service h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
+/* || Benefits Section */
+
+/* Set margin, padding, float, clear, size, and bg color for Benefits section */
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,31 +129,39 @@ p {
     background-color: #2589bd;
 }
 
+/* Set bottom margin for each div in Benefits section */
 .benefit {
     margin-bottom: 32px;
 }
 
+/* Sets margin and text alignment for heading level in Benefits section */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Sets display type, margin, and width for images in Benefits section */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* || Footer */
+
+/* Sets padding, clear, and text alignment for Footer box */
 footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
+/* Sets text color for footer p's */
 footer p {
     color: #000000
 }
 
+/* Set special font size and weight for "Made-by" line*/
 #made-by {
     font-size: 20px;
     font-weight: bold;
