@@ -1,23 +1,24 @@
 /* || Global and Repeat Font Styles */
 
-/* Set all boxes' sizing styling */
+/*Reset browser defaults*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Font families and color formats.*/
+/* Set fonts for the title and footer p's*/
 #site-title, footer p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Set main theme font family and color */
 p, h2, h3, #navigation-links li a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
 
-/* || Header, Nav, and Main Site Pic */
+/* || Header & Nav */
 
 /* Set header box padding and background */
 header {
@@ -25,8 +26,8 @@ header {
     background-color: #2a607c;
 }
 
-/* Set display, font, and color for title */
-#site-title {
+/* Set  font and color for title */
+header > h1 {
     display: inline-block;
     font-size: 48px;
     color: #ffffff;
@@ -37,56 +38,54 @@ header {
     color: #d9dcd6;
 }
 
-/* Set padding, margin, and float for nav box */
+/* Set nav box spacing */
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
 }
 
-/* Set list style, display, and margin for nav li's */
+/* Set style for nav links box */
 #navigation-links li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Set font size and decoration for nav links */
+/* Set font of nav links */
 #navigation-links li a {
     font-size: 20px;
     text-decoration: none;
 }
 
-/* Set size and margin for center pic on site */
-#market-meeting {
+/* || Hero Banner */
+
+/* Set size and margin for hero banner */
+#hero-banner {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
 }
 
-/* || General Body settings */
+/* || Main Body settings */
 
-/* Set background color for body section */
+/* Set background color and for body */
 body {
     background-color: #d9dcd6;
-}
-
-/* Set font-size for p elements in body */
-p {
     font-size: 16px;
 }
 
 /* || Services Section */
 
-/* Set width, display type, and left margin for Services section */
+/* Set display, size, and spacing for Services section */
 #our-services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Set margin, padding, height, and background for Service section/class */
-.service {
+/* Set spacing and background for Services div boxes */
+#our-services div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -94,31 +93,30 @@ p {
 }
 
 /* Set height for images in Service section */
-.service img {
-    max-height: 200px;
+#our-services img{ max-height: 200px;
 }
 
-/* Set left float and right margin for pics class in Service section */
-.service .float-left {
+/* Set class to float picture on left */
+.float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Set right float and left margin for pics class in Service section  */
-.service .float-right {
+/* Set class to float picture on right  */
+.float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* Set font for headings in Service section */
-.service h2 {
+#our-services h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 /* || Benefits Section */
 
-/* Set margin, padding, float, clear, size, and bg color for Benefits section */
+/* Positions Benefits section to the right of the page, keeping it narrow and away from right border*/
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -129,19 +127,19 @@ p {
     background-color: #2589bd;
 }
 
-/* Set bottom margin for each div in Benefits section */
-.benefit {
+/* Set margins for bottom of each div in Benefits */
+#benefits div {
     margin-bottom: 32px;
 }
 
-/* Sets margin and text alignment for heading level in Benefits section */
-.benefit h3 {
+/* Set placement and spacing for h3s */
+#benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Sets display type, margin, and width for images in Benefits section */
-.benefit img {
+/* Format images and spacing in Benefits */
+#benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -149,7 +147,7 @@ p {
 
 /* || Footer */
 
-/* Sets padding, clear, and text alignment for Footer box */
+/* Set text alignment and padding for Footer box */
 footer {
     padding: 30px;
     clear: both;
@@ -162,7 +160,7 @@ footer p {
 }
 
 /* Set special font size and weight for "Made-by" line*/
-#made-by {
+h4 {
     font-size: 20px;
     font-weight: bold;
 }
