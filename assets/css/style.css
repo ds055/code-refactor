@@ -8,12 +8,12 @@
 }
 
 /* Set fonts for the title and footer p's*/
-#site-title, footer p {
+h1, footer, footer p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Set main theme font family and color */
-p, h2, h3, #navigation-links li a {
+p, h2, h3, nav li a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
@@ -27,14 +27,14 @@ header {
 }
 
 /* Set  font and color for title */
-header > h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
     color: #ffffff;
 }
 
 /* Set color variation for letters "seo" in title */
-#site-title #seo {
+h1 #seo {
     color: #d9dcd6;
 }
 
@@ -46,14 +46,14 @@ nav {
 }
 
 /* Set style for nav links box */
-#navigation-links li {
+nav li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
 /* Set font of nav links */
-#navigation-links li a {
+nav li a {
     font-size: 20px;
     text-decoration: none;
 }
